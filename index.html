@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title> Fast &amp; Steady </title>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/race.css">
+        
+    </head>
+    
+   
+    <body id="race">
+       <div id="buttonContainer">
+        <input type="button" value="Race!" id="go">
+        <input type="button" value="Reset" id="reset">
+        </div>
+        
+        <div id="raceInfoContainer" class="clearfix">
+            <h2>The winner is...</h2>
+            
+        </div>
+        <div id="rabbitDiv">
+            <img id="rabbitDiv" src="img/rabbit.png">
+        </div>
+        
+        <div id="tortyDiv">
+            <img id="tortyDiv" src="img/torty.png">
+        </div>
+        <!-- Load the CDN first -->
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+        
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+        <script src="js/js.js"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,54 @@
+/* styles.css */
+
+#race {
+    background: url("../img/rename.jpg") no-repeat;
+    background-size: cover;
+}
+
+#go {
+    background-color: green;
+    border-radius: 10px;
+    height: 70px;
+    width: 150px;
+    color: azure;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 65px;
+}
+#reset {
+    background-color: indianred;
+    border-radius: 10px;
+    display: inline;
+    height: 70px;
+    width: 150px;
+    color: azure;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 65px;
+}
+#buttonContainer {
+    margin: 100px auto;
+    height: 100%;
+    display: table;
+}
+#raceInfoContainer {
+    width: 500px;
+    height: 150px;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    background-color: #222;
+    border: solid 5px yellow;
+}
+#rabbitDiv, #tortyDiv {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: relative;
+}
+
+
+
+
+
+
